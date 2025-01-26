@@ -10,5 +10,4 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
-  - admonition
   - pymdownx.details
