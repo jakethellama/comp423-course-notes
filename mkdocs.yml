@@ -11,3 +11,5 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.details
+  - admonition
+  - pymdownx.details
