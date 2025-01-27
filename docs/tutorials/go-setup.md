@@ -85,15 +85,13 @@ c) Create a `.devcontainer` directory and create a `devcontainer.json` file with
 
 Paste the following into `devcontainer.json`:
 
-```json
+```json hl_lines="2 3 6"
 {
     "name": "Hello 423 in Go",
     "image": "mcr.microsoft.com/devcontainers/go",
     "customizations": {
         "vscode": {
-            "extensions": [
-                "golang.go"
-            ]
+            "extensions": ["golang.go"]
         }
     }
 }
@@ -112,7 +110,7 @@ a) Open the VS Code Command Palette and use `Dev Containers: Reopen in Container
 b) In the container's terminal, check the version of Go that it is using.
 
 ```bash
-go verison
+go version
 ```
 
 ## Part 3: Using Go to Say Hello
@@ -157,7 +155,8 @@ And run the resulting executable:
 ./hello-423-go
 ```
 
-Using `go build` is similar to using `gcc hello.c -o hello` as it compiles the program to create an executable that is not immediately ran, unlike `go run`.
+!!! note "Comparisons to C"
+    Using `go build` is similar to using `gcc hello.c -o hello` as it compiles the program to create an executable that is not immediately ran, unlike `go run`.
 
 Congrats, you now have a basic Go project setup in a Dev Container.
 
