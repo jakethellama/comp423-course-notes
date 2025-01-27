@@ -158,7 +158,7 @@ And run the resulting executable:
 !!! note "Comparisons to C"
     Using `go build` is similar to using `gcc hello.c -o hello` as it compiles the program to create an executable that is not immediately ran, unlike `go run`.
 
-Congrats, you now have a basic Go project setup in a Dev Container.
+Congrats, you now have a basic Go project setup in a Dev Container. Be sure to commit and push your changes to your public repository.
 
 ## References
 
